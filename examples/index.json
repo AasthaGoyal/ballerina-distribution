@@ -620,11 +620,11 @@
         "samples": [
             {
                 "name": "Read/Write Bytes",
-                "url": "byte-io"
+                "url": "bytes-io"
             },
             {
-                "name": "Read/Write Text",
-                "url": "text-io"
+                "name": "Read/Write Strings",
+                "url": "strings-io"
             },
             {
                 "name": "Read/Write CSV",
@@ -1129,23 +1129,23 @@
             }
         ]
     },
-    {	
-        "title": "Observability",	
-        "column": 2,	
-        "category": "Working over the network",	
-        "samples": [{	
-                "name": "Distributed Tracing",	
-                "url": "tracing"	
-            },	
-            {	
-                "name": "Counter-Based Metrics",	
-                "url": "counter-metrics"	
-            },	
-            {	
-                "name": "Gauge-Based Metrics",	
-                "url": "gauge-metrics"	
-            }	
-        ]	
+    {
+        "title": "Observability",
+        "column": 2,
+        "category": "Working over the network",
+        "samples": [{
+                "name": "Distributed Tracing",
+                "url": "tracing"
+            },
+            {
+                "name": "Counter-Based Metrics",
+                "url": "counter-metrics"
+            },
+            {
+                "name": "Gauge-Based Metrics",
+                "url": "gauge-metrics"
+            }
+        ]
     },
     {
         "title": "OpenAPI",
